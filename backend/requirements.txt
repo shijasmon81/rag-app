@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+newspaper3k
+lxml_html_clean

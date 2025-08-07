@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass Container */
+.glass-container {
+  width: 100%;
+  max-width: 700px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Input */
+.glass-input {
+  width: 95%;
+  padding: 12px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+.glass-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+.glass-button {
+  width: 100%;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+}
+
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Answer Text */
+.glass-answer {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* ------------------ 📱 Responsive Styles ------------------ */
+
+/* For tablets and smaller */
+@media (max-width: 768px) {
+  .glass-container {
+    padding: 20px;
+    margin: 1rem;
+  }
+
+  .glass-input, .glass-button {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+/* For small phones */
+@media (max-width: 480px) {
+  .glass-container {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .glass-input, .glass-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .glass-answer {
+    font-size: 15px;
+  }
+}
