@@ -8,24 +8,6 @@ This is a multi-container Retrieval-Augmented Generation (RAG) application built
 
 ---
 
-## 📦 Project Structure
-
-rag-app/
-├── backend/
-│ ├── app.py
-│ ├── ingest.py
-│ ├── vectorstore/
-│ ├── requirements.txt
-│ └── Dockerfile
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ ├── package.json
-| ├── Dockerfile
-│ └── ...
-├── docker-compose.yml
-├── README.md
-
 
 
 docker-compose up --build
