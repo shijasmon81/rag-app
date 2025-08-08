@@ -71,7 +71,7 @@ rag-app/
 ### 1. Clone the Repository
 
 
-git clone https://github.com/yourusername/rag-app.git
+git clone (https://github.com/shijasmon81/rag-app)
 cd rag-app
 ````
 
