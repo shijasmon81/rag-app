@@ -36,3 +36,4 @@ def ask_question(req: QuestionRequest):
     combined_answer = "\n\n---\n\n".join(formatted_chunks)
     return {"answer": combined_answer}
 
+
